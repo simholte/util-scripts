@@ -8,3 +8,4 @@ echo "vagrant destroy -f" > vd.sh && chmod +x vd.sh && ln -s /users/simholte/scr
 
 echo "vagrant provision" > vp.sh && chmod +x vp.sh && ln -s /users/simholte/scripts/vp.sh /usr/local/bin/vp
 
+echo "vagrant ssh" > vs.sh && chmod +x vs.sh && ln -s /users/simholte/scripts/vs.sh /usr/local/bin/vs
